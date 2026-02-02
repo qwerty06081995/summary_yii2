@@ -1,0 +1,12 @@
+### Send POST request with json body
+POST http://localhost:8080/summary/summary/generate
+Content-Type: application/json
+
+{
+  "subject": "География",
+  "language": "Русский",
+  "grade": "8",
+  "slide_count": "5",
+  "topic": "astana",
+  "extra": ""
+}

@@ -910,8 +910,7 @@
                     .then(data => {
                         //console.log(data);
                         slideData = data.slides;
-                        console.log(slideData);
-                        return;
+
                         slideData = slideData.slice(0, slideCount);
 
                         currentSlideIndex = 0;
